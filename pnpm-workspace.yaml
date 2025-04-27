@@ -1,0 +1,17 @@
+autoInstallPeers: false
+strictPeerDependencies: true
+disallowWorkspaceCycles: true
+engineStrict: true
+resolutionMode: lowest-direct
+verifyDepsBeforeRun: prompt
+
+packages:
+  - packages/*
+
+catalog:
+  "@pnpm/logger": ^1000.0.0
+  "@pnpm/pnpmfile": ^1001.1.0
+  "@pnpm/types": ^1000.4.0
+
+configDependencies:
+  "@pnpm/better-defaults": 0.1.0+sha512-ikR/q6RSGqnn+6SSzmVEC+TgYhwb9OMdjkt0G5aNvZivE5SvsKwfK1lW1UDTLTpBqqVuv0duIz8ko0KdoSfcGw==

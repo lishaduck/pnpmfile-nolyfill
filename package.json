@@ -1,37 +1,12 @@
 {
-  "name": "@pnpmfiles/nolyfill",
-  "version": "0.0.1",
-  "description": "pnpm config that replaces unnecessary polyfills with native implementations.",
-  "keywords": [
-    "pnpm"
-  ],
-  "homepage": "https://github.com/lishaduck/pnpmfile-nolyfill#readme",
-  "bugs": {
-    "url": "https://github.com/lishaduck/pnpmfile-nolyfill/issues"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/lishaduck/pnpmfile-nolyfill.git"
-  },
+  "name": "@pnpmfile/workspace",
+  "version": "0.0.0",
+  "private": true,
   "license": "UPL-1.0",
   "author": {
     "name": "Eli D."
   },
   "type": "module",
-  "exports": {
-    "default": "./.pnpmfile.cjs"
-  },
-  "files": [
-    ".pnpmfile.cjs"
-  ],
   "scripts": {},
-  "packageManager": "pnpm@10.10.0+sha512.d615db246fe70f25dcfea6d8d73dee782ce23e2245e3c4f6f888249fb568149318637dca73c2c5c8ef2a4ca0d5657fb9567188bfab47f566d1ee6ce987815c39",
-  "engines": {
-    "node": "^20.17.0 || >=22.9.0",
-    "pnpm": ">=10.0.0"
-  },
-  "publishConfig": {
-    "access": "public",
-    "provenance": true
-  }
+  "packageManager": "pnpm@10.10.0+sha512.d615db246fe70f25dcfea6d8d73dee782ce23e2245e3c4f6f888249fb568149318637dca73c2c5c8ef2a4ca0d5657fb9567188bfab47f566d1ee6ce987815c39"
 }
