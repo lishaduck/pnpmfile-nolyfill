@@ -1,0 +1,17 @@
+{
+  "name": "@pnpmfiles/nolyfill",
+  "version": "0.0.1",
+  "description": "pnpm config that replaces unnecessary polyfills with native implementations.",
+  "license": "UPL-1.0",
+  "type": "module",
+  "author": {
+    "name": "Eli D."
+  },
+  "keywords": [
+    "pnpm"
+  ],
+  "exports": {
+    "default": "./.pnpmfile.cjs"
+  },
+  "scripts": {}
+}
