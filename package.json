@@ -13,5 +13,9 @@
   "exports": {
     "default": "./.pnpmfile.cjs"
   },
-  "scripts": {}
+  "scripts": {},
+  "publishConfig": {
+    "access": "public",
+    "provenance": true
+  }
 }
