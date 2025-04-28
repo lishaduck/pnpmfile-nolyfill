@@ -1,6 +1,6 @@
 {
   "name": "@pnpmfiles/nolyfill",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "pnpm config that replaces unnecessary polyfills with native implementations.",
   "keywords": [
     "pnpm"
